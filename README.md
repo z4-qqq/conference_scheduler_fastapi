@@ -60,6 +60,8 @@ SECRET_KEY=your-secret-key-here
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 DATABASE_URL=sqlite:///./conference.db
+ADMIN_EMAIL=admin-email
+ADMIN_PASSWORD=strong-secure-password
 ```
 
 ### Run application:
