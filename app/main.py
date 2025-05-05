@@ -326,8 +326,8 @@ def startup_event():
     if not admin:
         crud.create_admin_user(
             db,
-            email="admin@example.com",
-            password="adminpassword"  # This will now be properly hashed
+            email=auth.ADMIN_EMAIL,
+            password=auth.ADMIN_PASSWORD,
         )
     db.close()
 
